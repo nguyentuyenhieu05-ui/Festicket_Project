@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let paymentInterval = null; // Biến để lưu trữ ID của setInterval
     const CHECK_INTERVAL = 2000; // 2 giây kiểm tra 1 lần
 
-// Dán URL API Google App Script của bạn vào đây
+    
     const GOOGLE_SHEET_API_URL = 'https://script.google.com/macros/s/AKfycbwshuvDEGA1jz6m6tyBuvMXxbmpblqa0Vw9QqenLHUOpp5CGmLO82V9ELBO6_JhdhRarg/exec'; 
-// Dùng dữ liệu ngân hàng tĩnh (Tương tự Mybank trong video)
+    
     const BANK_ACCOUNT_NO = '0966980458'; 
     const BANK_CODE = 'MB';
     if (!selectedTicketsJson || !currentEventId || !userJson) {
